@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulär</title>
+</head>
+
+<body>
+
+    <h1>Kontaktformulär</h1>
+    <form action="#">
+        <!--# lurar validatorn att godkänna att action är tom-->
+        <!--action är tomt just nu, mer i backend kursen-->
+        <h3>Namn</h3>
+        <input type="text" 
+        placeholder="Ange för och efternamn" required>
+        
+        <input type="submit" value="Skicka">
+        <!--Alla webbläsare har en standard för value-send/submit eller liknande-->
+
+        <h3>E-post</h3>
+        <input type="email" name="email" placeholder="Email" required>
+
+        <h3>Meddelande</h3>
+        <textarea name= "message"cols="30" rows="10"></textarea>
+
+        <br><br>
+
+        <input type="submit" value="Skicka">
+    </form>
+</body>
+
+</html>
