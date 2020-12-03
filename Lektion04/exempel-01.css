@@ -1,0 +1,14 @@
+@media(min-width:500px){
+    body{
+        background-color: red;
+        color: saddlebrown;
+        font-size: 4em;
+        
+    }
+    @media(min-width: 800px){
+    body{
+        background-color: green;
+    }
+    
+}
+}
