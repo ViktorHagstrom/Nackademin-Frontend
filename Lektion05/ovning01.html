@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="sv">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Ovning 1</title>
+</head>
+
+<body>
+    <h1>JS Ovning 1</h1>
+
+    <script>
+        // 1kr om dagen, dubblas varje dag, hur lång tid till 10 miljoner
+
+        let wallet = 0;
+        let sallary = 1;
+        let days = 0;
+
+        while(wallet <= 10_000_000){
+            wallet +=sallary;
+            sallary *=2;
+            days++;
+        }
+        console.log(sallary);
+        console.log("Du måste jobba i " + days + " dagar")
+        
+
+    </script>
+
+</body>
+
+</html>
